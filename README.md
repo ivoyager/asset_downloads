@@ -4,6 +4,7 @@ As of v0.0.18, the ivoyager_core editor plugin will offer to download and update
 For manual asset management, downloads can be found [here](https://github.com/ivoyager/asset_downloads/releases). Release assets always have tag similar to "v0.0.18". Development (non-release) assets have appended ".dev.\<date\>" (e.g., "v0.0.19.dev.20240906").
 
 Current:
+* v0.0.23.dev.20250310 (dev assets after Godot 4.4 update)
 * v0.0.19 (release assets for ivoyager_core v0.0.19)
   
 Obsolete:
