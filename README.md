@@ -4,6 +4,7 @@ As of v0.0.18, the ivoyager_core editor plugin will offer to download and update
 For manual asset management, downloads can be found [here](https://github.com/ivoyager/asset_downloads/releases). Release assets always have tag similar to "v0.0.18". Development (non-release) assets have appended ".dev.\<date\>" (e.g., "v0.0.19.dev.20240906").
 
 Current:
+* v0.1.rc1 (preliminary v0.1; this will be removed/replaced)
 * v0.0.24 (release assets for ivoyager_core v0.0.24; added noise asset)
   
 Obsolete:
