@@ -4,7 +4,7 @@ This document catalogs files that are **original works of I, Voyager** — creat
 
 Files under *third-party* copyright and license are documented separately in [3RD_PARTY.md](3RD_PARTY.md). General acknowledgments are in [CREDITS.md](CREDITS.md).
 
-The master version of this file is maintained [here](https://github.com/ivoyager/ivoyager_core/blob/master/IVOYAGER_WORKS.md).
+The master version of this file is maintained [here](https://github.com/ivoyager/asset_downloads/blob/master/IVOYAGER_WORKS.md).
 
 **Contact:** Charlie Whitfield (mail@ivoyager.dev)
 
@@ -19,7 +19,7 @@ These files are located in subdirectories of `/addons/ivoyager_assets/` in proje
 
 ## Body models and surface-relief maps
 
-The 3D body models and surface-relief maps in this section are original works created for I, Voyager. They are not third-party works. They are listed here to attribute the public-domain source data from which they were derived — chiefly NASA mission data (governed by the [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/)), plus the NOAA ETOPO 2022 global relief model for the Earth maps. The custom models also embed the corresponding NASA albedo maps (documented in [3RD_PARTY.md](3RD_PARTY.md)) as surface textures.
+The 3D body models and surface-relief maps in this section are original works created for I, Voyager. They are not third-party works. They are listed here to attribute the public-domain source data from which they were derived — chiefly NASA mission data (governed by the [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/)), plus the NOAA ETOPO 2022 global relief model for the Earth maps. Each custom model directory also contains a NASA albedo (diffuse) texture (the `*_diff.jpg` file) embedded in the model; those textures are public-domain NASA imagery documented in [3RD_PARTY.md](3RD_PARTY.md) under "Embedded maps in I, Voyager models," not I, Voyager works. Everything else in these directories (the `.glb` model and any baked normal map) is an I, Voyager work.
 
 ### Custom body models (`.glb`)
 

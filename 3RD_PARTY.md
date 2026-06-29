@@ -2,7 +2,7 @@
 
 This document provides copyright and license information for third-party software and files used in "I, Voyager" software distributed from https://www.ivoyager.dev and https://github.com/ivoyager.
 
-The master version of this file is maintained [here](https://github.com/ivoyager/ivoyager_core/blob/master/3RD_PARTY.md).
+The master version of this file is maintained [here](https://github.com/ivoyager/asset_downloads/blob/master/3RD_PARTY.md).
 
 **Contact:** Charlie Whitfield (mail@ivoyager.dev)
 
@@ -85,24 +85,20 @@ Many world maps were modified by Charlie Whitfield. These modifications include 
 
 Starmaps were downloaded from https://svs.gsfc.nasa.gov/4851/ ("Deep Star Maps 2020"). Some image processing was applied by Charlie Whitfield.
 
-All 3D models were downloaded from https://science.nasa.gov/3d-resources/. Model subdirectories each contain the downloaded file (usually *.glb extension) and files extracted from the model by Godot's importer.
+3D models were downloaded from https://science.nasa.gov/3d-resources/. Model subdirectories each contain the downloaded file (usually *.glb extension) and files extracted from the model by Godot's importer.
 
 - **Files:**
   - `/maps/Ariel.albedo.2048.jpg`
-  - `/maps/Ceres.albedo.4096.jpg`
-  - `/maps/Charon.albedo.4096.jpg`
   - `/maps/Dione.albedo.4096.jpg`
   - `/maps/Earth.albedo.8192.jpg`
   - `/maps/Earth.clouds.albedo.2048.png`
   - `/maps/Earth.emission.4096.jpg`
   - `/maps/Enceladus.albedo.4096.jpg`
-  - `/maps/Iapetus.albedo.4096.jpg`
   - `/maps/Mars.albedo.4096.jpg`
   - `/maps/Mercury.albedo.4096.jpg`
   - `/maps/Miranda.albedo.2048.jpg`
   - `/maps/Moon.albedo.4096.jpg`
   - `/maps/Oberon.albedo.2048.jpg`
-  - `/maps/Phoebe.albedo.2048.jpg`
   - `/maps/Pluto.albedo.4096.jpg`
   - `/maps/Tethys.albedo.4096.jpg`
   - `/maps/Titania.albedo.2048.jpg`
@@ -129,6 +125,11 @@ All 3D models were downloaded from https://science.nasa.gov/3d-resources/. Model
   - `/models/pioneer_10/*`
   - `/models/vesta/*`
   - `/models/voyager/*`
+- **Embedded maps in [I, Voyager models](IVOYAGER_WORKS.md):** albedo (diffuse) textures embedded as surface textures in the custom models.
+  - `/models/ceres/Ceres_Ceres_diff.jpg`
+  - `/models/charon/Charon_Charon_diff.jpg`
+  - `/models/iapetus/Iapetus_Iapetus_diff.jpg`
+  - `/models/phoebe/Phoebe_Phoebe_diff.jpg`
 - **Copyright:** Public Domain
 - **License:** Public Domain; see [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/).
 
