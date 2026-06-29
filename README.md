@@ -5,10 +5,10 @@ For manual asset management, downloads can be found [here](https://github.com/iv
 
 Current:
 * v0.1.2.dev.20260628 - add Earth roughness
-* v0.1.2.dev.20260625 - preliminary 0.1.2. Massive graphics improvements!
 * v0.1 - release assets for ivoyager_core v0.1 (beta release!)
   
 Obsolete:
+* v0.1.2.dev.20260625 - preliminary 0.1.2. Massive graphics improvements!
 * v0.0.24 - release assets for ivoyager_core v0.0.24; added noise asset
 * v0.0.23 - release assets for ivoyager_core v0.0.23
 * v0.0.23.dev.20250310 - dev assets after Godot 4.4 update
@@ -18,3 +18,11 @@ Obsolete:
 * v0.0.18 - release assets for ivoyager_core v0.0.18
 * (Earlier release assets can be downloaded from [ivoyager_core/releases](https://github.com/ivoyager/ivoyager_core/releases))
 * (Earlier development assets can be downloaded from [non_release_assets](https://github.com/ivoyager/non_release_assets))
+
+### Copyright and licensing
+
+I, Voyager source code is licensed under [Apache 2.0](LICENSE.txt). Asset and data files fall into three documented groups:
+
+- [3RD_PARTY.md](3RD_PARTY.md) — files under third-party copyright and license; use must comply with their terms.
+- [IVOYAGER_WORKS.md](IVOYAGER_WORKS.md) — original I, Voyager works (models, maps, generated data) and attribution of the public-domain source data they derive from.
+- [CREDITS.md](CREDITS.md) — acknowledgments.
