@@ -82,7 +82,7 @@ the maps, without my permission.
 
 Most NASA images and models are in the public domain. Use is governed by [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/).
 
-Many world maps were modified by Charlie Whitfield. These modifications include substantial color adjustments to Mercury, Mars and Ceres. Grid lines were added to unimaged areas of the moons of Uranus and Neptune.
+Many world maps were modified by Charlie Whitfield. These modifications include substantial color adjustments to Mars and Ceres. Grid lines were added to unimaged areas of the moons of Uranus and Neptune.
 
 The background starmap was downloaded from https://svs.gsfc.nasa.gov/4851/ ("Deep Star Maps 2020"); it is the Milky Way and nebulae background with the bright (Hipparcos and Tycho) stars omitted, used as-is (the sky shader orients the equatorial image to the simulator's ecliptic frame). Discrete stars are rendered separately by I, Voyager from catalog data (see IVOYAGER_WORKS.md).
 
@@ -96,7 +96,6 @@ The background starmap was downloaded from https://svs.gsfc.nasa.gov/4851/ ("Dee
   - `/cubemaps/Earth.emission.1024.png`
   - `/cubemaps/Enceladus.albedo.1024.png`
   - `/cubemaps/Mars.albedo.1024.png`
-  - `/cubemaps/Mercury.albedo.1024.png`
   - `/cubemaps/Miranda.albedo.512.png`
   - `/cubemaps/Moon.albedo.1024.png`
   - `/cubemaps/Oberon.albedo.512.png`

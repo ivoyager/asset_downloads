@@ -25,6 +25,14 @@ We build the map from the public-domain data directly. Surface detail is the 500
 
 ---
 
+## Mercury
+
+The Mercury surface map is an I, Voyager original, built from public-domain imagery. It ships as an equirectangular master in `ivoyager_originated_extras` and as the `/cubemaps/Mercury.albedo.1024.png` cubemap in `ivoyager_assets`. Its surface detail is the USGS MESSENGER MDIS low-incidence global monochrome basemap (the "LOI" basemap; MESSENGER Team, ASU, Johns Hopkins APL, Carnegie Institution of Washington; via USGS Astrogeology), chosen over the shaded morphology basemap so the albedo carries no baked lighting — relief comes from the engine and the `Mercury.normal` map.
+
+No public-domain true-color global map of Mercury exists — the released MESSENGER color mosaics are false color (near-infrared or principal-component composites) — so the color is ours. We set it to Mercury's true disk-average tint, linear RGB 1.139 : 0.982 : 0.772 (a warm tan-grey), calibrated by integrating the disk-median MDIS visible-band spectrum (the 480/560/630 nm filters, from the public-domain MDIS multispectral records) against the CIE 1931 observer under an equal-energy illuminant. A single flat tint is the honest choice: measured local true-color variation across Mercury is below the perceptual threshold, so surface units (rays, plains, low-reflectance material) read through the grayscale brightness, not color. The permanently-shadowed polar craters and the small never-imaged polar gaps are inpainted from surrounding sunlit terrain.
+
+---
+
 ## Body models and surface-relief maps
 
 The 3D body models and surface-relief maps in this section are original works created for I, Voyager. They are not third-party works. They are listed here to attribute the public-domain source data from which they were derived — chiefly NASA mission data (governed by the [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/)), plus the NOAA ETOPO 2022 global relief model for the Earth maps. Each custom model directory also contains a NASA albedo (diffuse) texture (the `*_diff.jpg` file) embedded in the model; those textures are public-domain NASA imagery documented in [3RD_PARTY.md](3RD_PARTY.md) under "Embedded maps in I, Voyager models," not I, Voyager works. Everything else in these directories (the `.glb` model and any baked normal map) is an I, Voyager work.
