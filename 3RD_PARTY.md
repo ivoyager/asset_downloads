@@ -86,6 +86,8 @@ Many world maps were modified by Charlie Whitfield. These modifications include 
 
 The background starmap was downloaded from https://svs.gsfc.nasa.gov/4851/ ("Deep Star Maps 2020"); it is the Milky Way and nebulae background with the bright (Hipparcos and Tycho) stars omitted, used as-is (the sky shader orients the equatorial image to the simulator's ecliptic frame). Discrete stars are rendered separately by I, Voyager from catalog data (see IVOYAGER_WORKS.md).
 
+The Moon color map is the LROC WAC color mosaic from the NASA Scientific Visualization Studio CGI Moon Kit (https://svs.gsfc.nasa.gov/4720). I, Voyager toned it toward true color, restoring the subtle terrae/mare hue differentiation — warm low-titanium maria and highlands, cooler blue-grey high-titanium maria — that the Kit's eye-matched color balance had flattened; the differentiation is derived from the public-domain LROC WAC Hapke-normalized 415/566/643 nm mosaic bands. The Kit's polar caps carry no LROC color, because the poles are never suitably illuminated for the WAC color solution, so I, Voyager rebuilt them on the cube from the LROC WAC polar-stereographic mosaics (WAC_GLOBAL_P900N/S) and filled only the permanently-shadowed remainder with the co-registered LOLA topography of the same kit (the source of the Moon normal map; see IVOYAGER_WORKS.md).
+
 3D models were downloaded from https://science.nasa.gov/3d-resources/. Model subdirectories each contain the downloaded file (usually *.glb extension) and files extracted from the model by Godot's importer.
 
 - **Files:**
