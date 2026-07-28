@@ -10,6 +10,7 @@ The "ivoyager_originated_extras" download contains I, Voyager-originated files u
 ### ivoyager_assets:
 
 Current:
+* v0.2.dev.20260728 - Replaced and improved many assets; removed self-extracting model assets.
 * v0.2.dev.20260721 - Replaced equirectangular maps with cubemaps; added our own Europa generated from source NASA images
 * v0.2.dev.20260711 - Added shader-rendered stars (Hipparcos Catalogue) with lower res starless background
 * v0.1.2 - Release assets for ivoyager_core v0.1.2
