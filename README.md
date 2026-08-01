@@ -10,12 +10,13 @@ The "ivoyager_originated_extras" download contains I, Voyager-originated files u
 ### ivoyager_assets:
 
 Current:
+* v0.2 - Release assets for ivoyager_core v0.2. More massive graphics improvements!
+  
+Old:
 * v0.2.dev.20260728 - Replaced and improved many assets; removed self-extracting model assets.
 * v0.2.dev.20260721 - Replaced equirectangular maps with cubemaps; added our own Europa generated from source NASA images
 * v0.2.dev.20260711 - Added shader-rendered stars (Hipparcos Catalogue) with lower res starless background
 * v0.1.2 - Release assets for ivoyager_core v0.1.2
-  
-Obsolete:
 * v0.1.2.dev.20260628 - add Earth roughness
 * v0.1.2.dev.20260625 - preliminary 0.1.2. Massive graphics improvements!
 * v0.1 - release assets for ivoyager_core v0.1 (beta release!)
@@ -33,15 +34,16 @@ Obsolete:
 ### ivoyager_originated_extras
 
 Current:
-* v0.2.dev.20260721 - Has our own Europa equirectangular map used to generate the assets cubemap.
+* v0.2 - Added our own Mercury equirectangular map.
+* v0.2.dev.20260721 - Has our own Europa equirectangular maps used to generate the assets cubemaps.
 
 
 ### Copyright and licensing
 
-Repository documents follow the most recent "ivoyager_assets" above. Each release download carries its own documents applicable to the specific download.
+Repository documents follow the most recent "ivoyager_assets" above. Each release download carries its own attribution documents applicable to the specific download.
 
 I, Voyager source code is licensed under [Apache 2.0](LICENSE.txt). Asset and data files fall into three documented groups:
 
 - [3RD_PARTY.md](3RD_PARTY.md) — files under third-party copyright and license; use must comply with their terms.
-- [IVOYAGER_WORKS.md](IVOYAGER_WORKS.md) — original I, Voyager works (models, maps, generated data) and attribution of the public-domain source data they derive from.
+- [IVOYAGER_WORKS.md](IVOYAGER_WORKS.md) — original I, Voyager works (maps, meshes, and models) and attribution of the public-domain sources data they derive from.
 - [CREDITS.md](CREDITS.md) — acknowledgments.
