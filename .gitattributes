@@ -1,0 +1,4 @@
+# Normalize EOL for all files that Git considers text. Godot writes LF on every
+# platform, so LF is the only setting that does not churn the files it authors
+# (.import, project.godot, .godot/).
+* text=auto eol=lf
