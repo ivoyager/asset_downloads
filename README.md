@@ -10,6 +10,7 @@ The "ivoyager_originated_extras" download contains I, Voyager-originated files u
 ### ivoyager_assets:
 
 Current:
+* v0.2.1.dev.20260821 - Replaced almost all maps and models. Fixed albedo for physical light, plus other improvements.
 * v0.2 - Release assets for ivoyager_core v0.2. More massive graphics improvements!
   
 Old:
@@ -42,8 +43,8 @@ Current:
 
 Repository documents follow the most recent "ivoyager_assets" above. Each release download carries its own attribution documents applicable to the specific download.
 
-I, Voyager source code is licensed under [Apache 2.0](LICENSE.txt). Asset and data files fall into three documented groups:
+I, Voyager source code is licensed under [Apache 2.0](LICENSE.txt). Asset and data files are documented in three places:
 
-- [3RD_PARTY.md](3RD_PARTY.md) — files under third-party copyright and license; use must comply with their terms.
-- [IVOYAGER_WORKS.md](IVOYAGER_WORKS.md) — original I, Voyager works (maps, meshes, and models) and attribution of the public-domain sources data they derive from.
+- [IVOYAGER_ASSETS.md](IVOYAGER_ASSETS.md) — every distributed asset, individually: what it is, what it was made from, and its own copyright and license.
+- [3RD_PARTY.md](3RD_PARTY.md) — files carrying third-party content, listed by copyright holder and license, with the license texts in full; use must comply with their terms.
 - [CREDITS.md](CREDITS.md) — acknowledgments.
