@@ -10,6 +10,7 @@ The "ivoyager_originated_extras" download contains I, Voyager-originated files u
 ### ivoyager_assets:
 
 Current:
+* v0.2.1.dev.20260901 - Redeploy Earth clouds as a texture w/ color and alpha. 2D icon updates.
 * v0.2.1.dev.20260826 - Updated Mars albedo to be correct under its new atmosphere. Regenerated almost all 2D icons.
 * v0.2.1.dev.20260821 - Replaced almost all maps and models. Fixed albedo for physical light, plus other improvements.
 * v0.2 - Release assets for ivoyager_core v0.2. More massive graphics improvements!
